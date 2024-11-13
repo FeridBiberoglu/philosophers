@@ -2,14 +2,12 @@
 
 static int check_death(t_philo *philo)
 {
+    int is_dead;
+
     pthread_mutex_lock(philo->dead_lock);
-    if (*philo->dead)
-    {
-        pthread_mutex_unlock(philo->dead_lock);
-        return (1);
-    }
+    is_dead = *philo->dead;
     pthread_mutex_unlock(philo->dead_lock);
-    return (0);
+    return (is_dead);
 }
 
 static void philo_eat(t_philo *philo)
@@ -134,17 +132,14 @@ void *monitor_routine(void *arg)
         {
             pthread_mutex_lock(&program->meal_lock);
             time = get_current_time();
-            if (!program->philos[i].eating && 
-                (time - program->philos[i].last_meal) >= program->philos[i].time_to_die)
+            if ((time - program->philos[i].last_meal) >= program->philos[i].time_to_die)
             {
                 pthread_mutex_lock(&program->dead_lock);
-                if (program->dead_flag == 0)
-                {
-                    program->dead_flag = 1;
-                    print_message(&program->philos[i], "died");
-                }
+                program->dead_flag = 1;
                 pthread_mutex_unlock(&program->dead_lock);
+                print_message(&program->philos[i], "died");
                 pthread_mutex_unlock(&program->meal_lock);
+                usleep(1000);
                 return (NULL);
             }
             pthread_mutex_unlock(&program->meal_lock);
@@ -152,7 +147,7 @@ void *monitor_routine(void *arg)
         }
         if (check_meals(program))
             return (NULL);
-        usleep(100);
+        usleep(50);
     }
     return (NULL);
 }

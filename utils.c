@@ -46,22 +46,16 @@ int ft_atoi(const char *str)
 
 void    print_message(t_philo *philo, char *msg)
 {
-    pthread_mutex_lock(philo->write_lock);
-    if (!(*philo->dead))
+    pthread_mutex_lock(philo->dead_lock);
+    if (!(*philo->dead) || msg[0] == 'd')
     {
+        pthread_mutex_lock(philo->write_lock);
         printf("%zu %d %s\n", 
             get_current_time() - philo->start_time, 
             philo->id, 
             msg);
         fflush(stdout);
+        pthread_mutex_unlock(philo->write_lock);
     }
-    else if (msg[0] == 'd')
-    {
-        printf("%zu %d %s\n", 
-            get_current_time() - philo->start_time, 
-            philo->id, 
-            msg);
-        fflush(stdout);
-    }
-    pthread_mutex_unlock(philo->write_lock);
+    pthread_mutex_unlock(philo->dead_lock);
 } 

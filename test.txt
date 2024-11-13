@@ -1,0 +1,295 @@
+3 200 is thinking
+92 146 is thinking
+120 42 is thinking
+207 147 is thinking
+208 83 is thinking
+208 145 is thinking
+209 111 is thinking
+209 73 is thinking
+234 198 is thinking
+234 162 is thinking
+235 186 is thinking
+235 188 is thinking
+235 162 has taken a fork
+236 162 has taken a fork
+236 56 is thinking
+236 188 has taken a fork
+237 188 has taken a fork
+237 172 is thinking
+237 186 has taken a fork
+237 186 has taken a fork
+238 56 has taken a fork
+238 56 has taken a fork
+238 176 is thinking
+239 172 has taken a fork
+239 172 has taken a fork
+239 140 is thinking
+240 148 is thinking
+240 154 is thinking
+241 176 has taken a fork
+241 176 has taken a fork
+241 148 has taken a fork
+241 148 has taken a fork
+242 154 has taken a fork
+242 154 has taken a fork
+242 140 has taken a fork
+242 140 has taken a fork
+243 150 is thinking
+243 50 is thinking
+243 128 is thinking
+244 150 has taken a fork
+244 150 has taken a fork
+244 54 is thinking
+245 50 has taken a fork
+245 50 has taken a fork
+245 142 is thinking
+245 128 has taken a fork
+246 128 has taken a fork
+246 94 is thinking
+246 54 has taken a fork
+247 54 has taken a fork
+247 94 has taken a fork
+247 94 has taken a fork
+247 142 has taken a fork
+248 142 has taken a fork
+248 130 is thinking
+248 68 is thinking
+249 122 is thinking
+249 130 has taken a fork
+249 130 has taken a fork
+250 132 is thinking
+250 86 is thinking
+250 122 has taken a fork
+251 122 has taken a fork
+251 132 has taken a fork
+251 132 has taken a fork
+251 86 has taken a fork
+252 86 has taken a fork
+252 164 is thinking
+252 68 has taken a fork
+253 68 has taken a fork
+253 118 is thinking
+253 164 has taken a fork
+254 164 has taken a fork
+254 116 is thinking
+254 76 is thinking
+255 144 is thinking
+255 14 is thinking
+256 116 has taken a fork
+256 116 has taken a fork
+256 118 has taken a fork
+256 118 has taken a fork
+257 184 is thinking
+257 18 is thinking
+258 98 is thinking
+258 184 has taken a fork
+258 184 has taken a fork
+259 98 has taken a fork
+259 98 has taken a fork
+259 18 has taken a fork
+259 18 has taken a fork
+260 110 is thinking
+260 134 is thinking
+261 84 is thinking
+262 8 is thinking
+262 84 has taken a fork
+262 84 has taken a fork
+263 102 is thinking
+263 40 is thinking
+264 34 is thinking
+264 26 is thinking
+264 8 has taken a fork
+265 8 has taken a fork
+265 102 has taken a fork
+265 102 has taken a fork
+265 40 has taken a fork
+266 40 has taken a fork
+266 96 is thinking
+266 26 has taken a fork
+267 26 has taken a fork
+267 82 is thinking
+267 34 has taken a fork
+268 34 has taken a fork
+268 10 is thinking
+268 96 has taken a fork
+269 96 has taken a fork
+269 92 is thinking
+269 2 is thinking
+270 100 is thinking
+271 44 is thinking
+271 60 is thinking
+271 100 has taken a fork
+272 100 has taken a fork
+272 44 has taken a fork
+272 44 has taken a fork
+272 60 has taken a fork
+273 60 has taken a fork
+273 2 has taken a fork
+273 2 has taken a fork
+274 112 is thinking
+274 12 is thinking
+275 22 is thinking
+275 112 has taken a fork
+275 112 has taken a fork
+276 74 is thinking
+276 104 is thinking
+277 36 is thinking
+277 108 is thinking
+278 6 is thinking
+278 36 has taken a fork
+278 36 has taken a fork
+278 74 has taken a fork
+279 74 has taken a fork
+279 52 is thinking
+279 104 has taken a fork
+280 104 has taken a fork
+280 108 has taken a fork
+280 108 has taken a fork
+284 52 has taken a fork
+285 52 has taken a fork
+285 6 has taken a fork
+285 6 has taken a fork
+286 70 is thinking
+286 64 is thinking
+286 30 is thinking
+287 70 has taken a fork
+287 70 has taken a fork
+287 136 is thinking
+288 64 has taken a fork
+288 64 has taken a fork
+288 30 has taken a fork
+288 30 has taken a fork
+289 16 is thinking
+289 72 is thinking
+290 136 has taken a fork
+290 136 has taken a fork
+290 78 is thinking
+291 24 is thinking
+291 16 has taken a fork
+292 16 has taken a fork
+292 24 has taken a fork
+292 24 has taken a fork
+293 20 is thinking
+293 66 is thinking
+294 46 is thinking
+295 168 is thinking
+295 126 is thinking
+295 46 has taken a fork
+296 46 has taken a fork
+296 158 is thinking
+296 168 has taken a fork
+297 168 has taken a fork
+297 180 is thinking
+297 126 has taken a fork
+298 126 has taken a fork
+298 170 is thinking
+298 158 has taken a fork
+298 158 has taken a fork
+299 174 is thinking
+299 180 has taken a fork
+299 180 has taken a fork
+300 114 is thinking
+300 170 has taken a fork
+300 170 has taken a fork
+301 124 is thinking
+301 174 has taken a fork
+301 174 has taken a fork
+302 114 has taken a fork
+302 114 has taken a fork
+302 192 is thinking
+303 120 is thinking
+303 124 has taken a fork
+303 124 has taken a fork
+304 196 is thinking
+304 193 is thinking
+304 194 is thinking
+305 196 has taken a fork
+305 196 has taken a fork
+306 9 is thinking
+306 199 is thinking
+306 183 is thinking
+307 197 is thinking
+307 169 is thinking
+308 194 has taken a fork
+308 194 has taken a fork
+308 189 is thinking
+309 185 is thinking
+309 119 is thinking
+310 175 is thinking
+310 183 has taken a fork
+311 5 is thinking
+311 173 is thinking
+311 51 is thinking
+312 5 has taken a fork
+312 47 is thinking
+313 161 is thinking
+313 167 is thinking
+314 153 is thinking
+314 161 has taken a fork
+314 167 has taken a fork
+315 155 is thinking
+315 153 has taken a fork
+316 163 is thinking
+316 139 is thinking
+316 157 is thinking
+317 117 is thinking
+317 65 is thinking
+318 139 has taken a fork
+318 157 has taken a fork
+318 127 is thinking
+319 143 is thinking
+319 91 is thinking
+320 77 is thinking
+321 103 is thinking
+321 91 has taken a fork
+322 91 has taken a fork
+322 99 is thinking
+323 105 is thinking
+324 39 is thinking
+324 93 is thinking
+325 7 is thinking
+325 75 is thinking
+326 39 has taken a fork
+326 95 is thinking
+327 61 is thinking
+327 13 is thinking
+328 15 is thinking
+328 165 is thinking
+329 97 is thinking
+330 101 is thinking
+330 27 is thinking
+331 55 is thinking
+331 57 is thinking
+332 69 is thinking
+333 79 is thinking
+333 25 is thinking
+334 63 is thinking
+334 89 is thinking
+335 115 is thinking
+335 43 is thinking
+336 63 has taken a fork
+336 159 is thinking
+337 71 is thinking
+338 113 is thinking
+339 109 is thinking
+340 45 is thinking
+341 3 is thinking
+341 23 is thinking
+347 87 is thinking
+348 1 is thinking
+348 67 is thinking
+349 135 is thinking
+349 171 is thinking
+350 41 is thinking
+350 133 is thinking
+351 35 is thinking
+351 129 is thinking
+352 31 is thinking
+353 137 is thinking
+354 151 is thinking
+354 179 is thinking
+355 195 is thinking
+356 187 is thinking
+356 179 has taken a fork
+357 131 is thinking
+358 139 died
