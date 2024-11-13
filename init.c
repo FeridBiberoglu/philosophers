@@ -26,31 +26,10 @@ static int init_mutexes(t_program *program, int num_philos)
     return (0);
 }
 
-static void assign_forks(t_program *program, int num_philos)
+static int init_philos(t_program *program, char **argv, int num_philos)
 {
     int i;
 
-    i = 0;
-    while (i < num_philos)
-    {
-        program->philos[i].l_fork = &program->forks[i];
-        if (i == num_philos - 1)
-            program->philos[i].r_fork = &program->forks[0];
-        else
-            program->philos[i].r_fork = &program->forks[i + 1];
-        i++;
-    }
-}
-
-static int init_philos(t_program *program, char **argv)
-{
-    int i;
-    int num_philos;
-
-    num_philos = ft_atoi(argv[1]);
-    program->philos = malloc(sizeof(t_philo) * num_philos);
-    if (!program->philos)
-        return (1);
     i = 0;
     while (i < num_philos)
     {
@@ -77,6 +56,22 @@ static int init_philos(t_program *program, char **argv)
     return (0);
 }
 
+static void assign_forks(t_program *program, int num_philos)
+{
+    int i;
+
+    i = 0;
+    while (i < num_philos)
+    {
+        program->philos[i].l_fork = &program->forks[i];
+        if (i == num_philos - 1)
+            program->philos[i].r_fork = &program->forks[0];
+        else
+            program->philos[i].r_fork = &program->forks[i + 1];
+        i++;
+    }
+}
+
 int init_program(t_program *program, int argc, char **argv)
 {
     int num_philos;
@@ -88,7 +83,10 @@ int init_program(t_program *program, int argc, char **argv)
     program->dead_flag = 0;
     if (init_mutexes(program, num_philos))
         return (1);
-    if (init_philos(program, argv))
+    program->philos = malloc(sizeof(t_philo) * num_philos);
+    if (!program->philos)
+        return (1);
+    if (init_philos(program, argv, num_philos))
         return (1);
     assign_forks(program, num_philos);
     return (0);
