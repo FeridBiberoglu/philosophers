@@ -152,7 +152,9 @@ void *monitor_routine(void *arg)
         }
         if (check_meals(program))
             return (NULL);
-        usleep(100);  // Increased sleep time to reduce CPU usage
+        usleep(100);
     }
     return (NULL);
 }
+
+// ./philo 200 410 200 200  

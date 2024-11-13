@@ -45,7 +45,7 @@ int main(int argc, char **argv)
 {
     t_program   program;
     int         i;
-    size_t      start_time;
+    size_t    start_time;
 
     if (check_args(argc, argv))
     {
@@ -54,19 +54,16 @@ int main(int argc, char **argv)
     }
     if (init_program(&program, argc, argv))
         return (1);
-    
     i = 0;
     while (i < program.philos[0].num_of_philos)
     {
-        if (pthread_create(&program.philos[i].thread, NULL, 
+        if (/* i == 3 || */pthread_create(&program.philos[i].thread, NULL, 
             philo_routine, &program.philos[i]))
             return (1);
         i++;
     }
     if (pthread_create(&program.monitor, NULL, monitor_routine, &program))
         return (1);
-
-    // Set start time and release threads
     start_time = get_current_time();
     i = 0;
     while (i < program.philos[0].num_of_philos)
@@ -78,7 +75,6 @@ int main(int argc, char **argv)
     pthread_mutex_lock(&program.start_lock);
     program.start_flag = 1;
     pthread_mutex_unlock(&program.start_lock);
-
     i = 0;
     while (i < program.philos[0].num_of_philos)
     {
